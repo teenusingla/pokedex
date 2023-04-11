@@ -1,0 +1,22 @@
+@import '../../../../scss/index';
+.pokemon_search {
+  display: flex;
+  flex-direction: column;
+
+  input[type='search'] {
+    background-color: $search-box-color;
+    border: none;
+    border-radius: 00.7rem;
+    margin: 1rem 0rem;
+    height: 3rem;
+    padding: 1rem;
+  }
+}
+
+@include responsive-for-desktop {
+  .pokemon_search {
+    input[type='search'] {
+      width: 50%;
+    }
+  }
+}

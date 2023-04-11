@@ -1,0 +1,24 @@
+@import '../../../../scss/index';
+.pokemon_stats {
+  h4 {
+    color: $popover-color;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  background-color: $stat-background-color;
+  padding: 2rem;
+  border-radius: 1rem;
+  .progress {
+    border-radius: 0rem;
+    background-color: $progress-background-color;
+    .progress-bar {
+      background-color: $popover-color;
+    }
+  }
+
+  label {
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+  }
+}

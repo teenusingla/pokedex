@@ -1,0 +1,14 @@
+.pokemon_info {
+  text-transform: capitalize;
+  padding: 2rem 0rem;
+}
+
+.pokemon_info-weak,
+.pokemon_info-type {
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  display: inline-block;
+  margin: 0.1rem;
+  text-transform: capitalize;
+}

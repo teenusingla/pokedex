@@ -1,0 +1,29 @@
+@import '../../../scss/index';
+
+header {
+  padding: 0rem 0rem 2rem 0rem;
+  hr {
+    border: none;
+    border-bottom: solid 0.1rem;
+  }
+  h1,
+  h3 {
+    align-items: center;
+  }
+}
+
+@include responsive-for-desktop {
+  header {
+    display: grid;
+    grid-template-columns: 10% 2rem auto;
+    hr {
+      border: none;
+      border-left: 0.1rem solid;
+      padding-left: 2rem;
+      margin-left: 1rem;
+    }
+    h3{
+      margin-top: 0.5rem;
+    }
+  }
+}

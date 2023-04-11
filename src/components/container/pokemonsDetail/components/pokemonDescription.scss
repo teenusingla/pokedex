@@ -1,0 +1,46 @@
+@import '../../../../scss/index';
+
+.pokemon_description {
+  &-popover {
+    background-color: $popover-color;
+    color: $white-color;
+    width: 15rem;
+  }
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  a {
+    text-decoration: underline !important;
+  }
+}
+
+@include responsive-for-desktop {
+  .pokemon_description {
+    p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    &-popover {
+      width: 30rem;
+    }
+    &-overview {
+      padding-bottom: 1.5rem;
+      &-name,
+      &-no {
+        text-transform: capitalize;
+        font-size: 2rem;
+        border-right: 0.1rem solid;
+        text-align: center;
+      }
+    }
+  }
+}

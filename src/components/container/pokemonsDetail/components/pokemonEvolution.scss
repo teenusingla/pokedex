@@ -1,0 +1,18 @@
+@import '../../../../scss/index';
+
+.pokemon_evolution {
+  padding: 2rem 0rem;
+  h3 {
+    color: $popover-color;
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+  .right_arrow {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  &-col {
+    display: flex;
+  }
+}

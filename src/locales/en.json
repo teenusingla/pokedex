@@ -1,0 +1,21 @@
+{
+    "aapName": "Pokedex",
+    "appDesc": "Search for any Poemon that exists on the planet",
+    "searchBox": {
+        "label": "Search By"
+    },
+    "pokemonDetail": {
+        "readMore": "read more",
+        "evolutionHeading": "Evolution Chain",
+        "pokemonInfo": {
+            "height": "Height",
+            "weight": "Weight",
+            "gender": "Genders(s)",
+            "eggGroup": "Egg Group",
+            "abilities": "Abilities",
+            "types": "Types",
+            "weakAgainst": "Weak Against"
+        },
+        "statsHeading": "Stats"
+    }
+}

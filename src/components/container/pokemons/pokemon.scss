@@ -1,0 +1,29 @@
+@import '../../../scss/index';
+
+main {
+  background-color: $body-background-color;
+  color: $font-color;
+  padding: 1rem;
+  max-width: 100%;
+  ul {
+    padding: 0rem;
+  }
+}
+
+.pokemon_list {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-template-rows: min-content;
+  gap: 2rem;
+}
+
+@include responsive-for-desktop {
+  main {
+    max-width: 80%;
+    padding: 3rem;
+    margin: auto;
+    .pokemon_list {
+      grid-template-columns: repeat(6, 15%);
+    }
+  }
+}

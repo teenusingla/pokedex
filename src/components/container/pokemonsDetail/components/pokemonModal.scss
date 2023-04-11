@@ -1,0 +1,24 @@
+@import '../../../../scss/index';
+
+.modal-content {
+  background-color: $body-background-color;
+  color: $font-color;
+  li {
+    list-style-type: none;
+  }
+}
+
+.container {
+  background-color: $body-background-color;
+  color: $font-color;
+}
+
+.pokemon_detail {
+  display: grid;
+}
+
+.pokemon_name,
+.pokemon_no {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
